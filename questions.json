@@ -1,17 +1,17 @@
 { "questions": [{
-    "question": "Do programmers have some coding secrets that are only learnt by experience?",
+    "content": "Do programmers have some coding secrets that are only learnt by experience?",
     "author": "newbie1",
     "note": "I want to be a coding ninja."
   }, {
-    "question": "Why do programming languages need to be complicated and difficult to learn or even understand, why don’t we make it as simple as normal English?",
+    "content": "Why do programming languages need to be complicated and difficult to learn or even understand, why don’t we make it as simple as normal English?",
     "author": "newbie2",
     "note": "I can't read normal English, either."
   }, {
-    "question": "Should I ask my colleagues for help if I stuck on a bug for 2 weeks and can't make any progress?",
+    "content": "Should I ask my colleagues for help if I stuck on a bug for 2 weeks and can't make any progress?",
     "author": "newbie3",
     "note": "Likes to perseverate."
   }, {
-    "question": "Is it possible to learn HTML and CSS in one month?",
+    "content": "Is it possible to learn HTML and CSS in one month?",
     "author": "newbie4",
     "note": "Still stuck on HTML after all these years."
   }]
