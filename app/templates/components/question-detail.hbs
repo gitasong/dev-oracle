@@ -1,3 +1,8 @@
 <h2>{{question.content}}</h2>
 <p><cite>{{question.author}}</cite></p>
 <p>{{question.note}}</p>
+
+<h2>Answers</h2>
+{{#each question.answers as |answer|}}
+  {{answer-tile answer=answer}}  <!-- needs update="update" destroyAnswer="destroyAnswer" -->
+{{/each}}
