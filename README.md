@@ -1,6 +1,6 @@
 # dev-oracle
 
-Quora-like question/answer forum for developers, with an emphasis on helping new developers in a non-nasty way.
+Quora-like question/answer forum for developers, with an emphasis on helping new developers in a non-nasty way. Users will be able to view all questions, ask a new question, update questions, view a question's detail, and answer questions from other users.
 
 ## Planning
 
@@ -9,8 +9,13 @@ Quora-like question/answer forum for developers, with an emphasis on helping new
   * Bootstrap/SASS
 
 2. Specs
-  * Spec 1: Description, input, output.
-  * Spec 2: Description, input, output.
+  * The program will allow users to ask a question (add a question) on the home page.
+  * The program will display all questions on the home page, with the question and the name of the author.
+  * The program will allow users to click on a question and go to another page containing the question details and additional information.
+  * The program will allow users to edit existing questions.
+  * The program will allow users to add answers to a question on that question's page.
+  * The program will allow users to update existing answers (if time).
+  * The program will allow users to delete questions and/or answers (if time).
 
 3. Routes/Integration (a = action; b = button)
   * (route) index --> (loop) question-tile --> (link to) (route) question (a:destroyQ/destroyA/saveA)
@@ -21,11 +26,11 @@ Quora-like question/answer forum for developers, with an emphasis on helping new
   * Components:
     * new-question: contains new question form, show/hide functionality, save question functionality
     * question-tile: contains question loop with question and author
-    * question-detail: contains full question details (question, author, any other attributes)
+    * question-detail: contains full question details (question, author, any other attributes), delete button (if time)
     * update-question: contains update question form, show/hide functionality, save/update functionality, placeholders for current question data; only updates fields with inputted data
     * new-answer: contains new answer form, show/hide functionality, save answer functionality
-    * answer-tile: contains answer loop with answer and author
-    * update-answer: contains update question form, show/hide functionality, save/update functionality, placeholders for current answer data; only updates fields with inputted data
+    * answer-tile: contains answer loop with answer and author, delete button (if time)
+    * update-answer: contains update question form, show/hide functionality, save/update functionality, placeholders for current answer data; only updates fields with inputted data (if time)
 
 4. UX/UI
   * Include and modify Bootstrap/SASS etc.
