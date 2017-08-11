@@ -1,1 +1,22 @@
-{{outlet}}
+<div class= "container-fluid">
+  <header class= "jumbotron container-fluid">
+    <div id="header-container">
+      <span id="logo-container">
+        <h1>DevOracle</h1>
+      </span>
+      <span id="search-container">
+        <h4>Search</h4>
+      </span>
+    </div>
+    <div id="nav">
+        {{#link-to 'index'}}Home{{/link-to}}
+    </div>
+  </header>
+  <div class="main-container">
+    {{outlet}}
+  </div>
+  <hr>
+  <footer class=jumbotron>
+    {{#link-to 'index'}}Home{{/link-to}}
+  </footer>
+</div>
