@@ -5,7 +5,7 @@
         <h1>DevOracle</h1>
       </div>
       <div id="nav-container">
-        <h4><span>{{#link-to 'index'}}Home{{/link-to}}</span> | <span>Search</span></h4>
+        <h4><span>{{#link-to 'index'}}Home{{/link-to}}</span> | <span>Search {{fa-icon "search"}}</span> | <a href="https://www.facebook.com">{{fa-icon "facebook" tagName="span"}}</a> <a href="https://www.twitter.com">{{fa-icon "twitter" tagName="span"}}</a> <a href="https://www.facebook.com">{{fa-icon "github" tagName="span"}}</a></h4>
       </div>
     </div>
   </header>
@@ -13,6 +13,6 @@
     {{outlet}}
   </div>
   <footer class=jumbotron>
-    {{#link-to 'index'}}Home{{/link-to}}
+    <span>{{#link-to 'index'}}Home{{/link-to}}</span> | <span>Search {{fa-icon "search"}}</span> | <a href="https://www.facebook.com">{{fa-icon "facebook" tagName="span"}}</a> <a href="https://www.twitter.com">{{fa-icon "twitter" tagName="span"}}</a> <a href="https://www.facebook.com">{{fa-icon "github" tagName="span"}}</a>
   </footer>
 </div>
