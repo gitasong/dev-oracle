@@ -7,6 +7,11 @@
   margin: 0 0 0 0;
 }
 
+header.jumbotron {
+  padding-bottom: 2rem;
+  margin-bottom: 5rem;
+}
+
 #header-container {
   text-align: center;
 }
@@ -23,10 +28,6 @@ span#nav-container, span#header-container, span#search-container {
   flex: 1 1 auto;
 }
 
-/*.nav-container {
-  text-align: left;
-}*/
-
 .main-container {
   text-align: left;
   margin: 0 10% 0 10%;
@@ -42,4 +43,5 @@ span#nav-container, span#header-container, span#search-container {
 
 footer.jumbotron {
   text-align: center;
+  margin-top: 5rem;
 }
