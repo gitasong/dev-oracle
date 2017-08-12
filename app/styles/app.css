@@ -2,6 +2,22 @@
   padding: 0;
 }
 
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+}
+
 .jumbotron {
   max-height: 20%;
   margin: 0 0 0 0;
