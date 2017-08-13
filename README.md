@@ -1,6 +1,8 @@
-# dev-oracle
+# DevOracle (aka AskMeAnything)
 
-Quora-like question/answer forum for developers, with an emphasis on helping new developers in a non-nasty way. Users will be able to view all questions, ask a new question, update questions, view a question's detail, and answer questions from other users.
+Quora-like question/answer forum for developers, with an emphasis on helping new developers in a non-snarky way. Users will be able to view all questions, ask a new question, update questions, view a question's detail, and answer questions from other users.
+
+#### By Nicole Freed
 
 ## Planning
 
@@ -57,7 +59,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/gitasong/dev-oracle`
 * `cd dev-oracle`
 * `npm install`
 
@@ -80,9 +82,26 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Known Bugs
 
-Specify what it takes to deploy your app.
+App will currently save empty questions/answers if the reader clicks the `Add Question` or `Add Answer` button and clicks it again without entering anything.
+
+## Support and Contact Details
+
+You can contact me with questions or inquiries at gitasong@github.io.
+
+## Technologies Used
+
+* HTML 5
+* CSS 3
+* Bootstrap 3
+* FontAwesome 4.7.0
+* Google Fonts
+* JavaScript 5
+* Node.js 8.2.1
+* npm (Node package manager) 5.3.0
+* Ember-CLI 2.14.2
+* Bower (front-end dependency manager) 1.8.0
 
 ## Further Reading / Useful Links
 
@@ -91,3 +110,9 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+### License
+
+This project is licensed under the MIT license.
+
+Copyright (c) 2017 Nicole Freed. All rights reserved.
