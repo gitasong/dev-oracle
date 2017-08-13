@@ -10,12 +10,25 @@ body {
   font-weight: 300;
 }
 
+a, a:hover {
+  text-decoration: none;
+}
+
 h1 {
   font-weight: 700;
 }
 
-h2 {
+.heading {
   font-weight: 400;
+  color: rgb(185, 43, 39);
+}
+
+a h3 {
+  color: #333333;
+}
+
+a:hover h3 {
+  color: #777777;
 }
 
 .jumbotron {
@@ -26,6 +39,8 @@ h2 {
 header.jumbotron {
   padding-bottom: 2rem;
   margin-bottom: 5rem;
+  background-color: rgb(185, 43, 39);
+  color: #ffffff;
 }
 
 #header-container {
@@ -44,6 +59,18 @@ span#nav-container, span#header-container, span#search-container {
   flex: 1 1 auto;
 }
 
+#nav-container h4 {
+  color: #fbebea;
+}
+
+#nav-container h4 a {
+  color: #edadab;
+}
+
+#nav-container h4 a:hover {
+  color: #fbebea;
+}
+
 .main-container {
   text-align: left;
   margin: 0 10% 0 10%;
@@ -60,4 +87,17 @@ span#nav-container, span#header-container, span#search-container {
 footer.jumbotron {
   text-align: center;
   margin-top: 5rem;
+  background-color: #fbebea;
+}
+
+footer span {
+  color: rgb(185, 43, 39);
+}
+
+footer a, footer a span {
+  color: #e48481;
+}
+
+footer a:hover, footer a:hover span {
+  color: rgb(185, 43, 39);
 }
