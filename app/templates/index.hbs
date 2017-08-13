@@ -1,10 +1,10 @@
 <div class="add-question">
-  <h2>Ask A Question</h2>
+  <h2 class="heading">Ask A Question</h2>
   {{new-question saveQuestion="saveQuestion"}}
 </div>
 
 <div class="all-questions">
-  <h2>All Questions</h2>
+  <h2 class="heading">All Questions</h2>
   {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
