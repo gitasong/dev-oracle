@@ -31,6 +31,18 @@ a:hover h3 {
   color: #777777;
 }
 
+button {
+  background-color: rgb(185, 43, 39);
+  font-weight: 400;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #bd2d28;
+  font-weight: 400;
+  color: #fbebea;
+}
+
 .jumbotron {
   max-height: 20%;
   margin: 0 0 0 0;
